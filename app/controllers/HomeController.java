@@ -17,7 +17,7 @@ public class HomeController extends Controller {
      */
     public Result index() {
         Sentry.init("https://4dff8390f1a2491cbfd09e3734322b21@o312835.ingest.sentry.io/5275496");
-        //this.logWithStaticAPI();
+        this.logWithStaticAPI();
 
         return ok(views.html.index.render());
     }
