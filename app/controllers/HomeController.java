@@ -22,6 +22,10 @@ public class HomeController extends Controller {
         return ok(views.html.index.render());
     }
 
+    public Result login() {
+        return ok(views.html.login.render());
+    }
+
     /**
      * An example method that throws an exception.
      */
